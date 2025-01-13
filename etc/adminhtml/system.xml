@@ -14,7 +14,7 @@
                  showInStore="1">
             <label>Used Product</label>
             <tab>hawksama</tab>
-            <resource>Hawlsama_UsedProductNotice::config</resource>
+            <resource>Hawksama_HyvaUsedProductNotice::config</resource>
             <group id="main"
                    translate="label"
                    type="text"

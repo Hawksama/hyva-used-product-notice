@@ -7,7 +7,7 @@
 
 declare(strict_types=1);
 
-namespace Hawksama\UsedProductNotice\Model;
+namespace Hawksama\HyvaUsedProductNotice\Model;
 
 use Magento\Catalog\Api\Data\ProductInterface;
 use Magento\Framework\App\Config\ScopeConfigInterface;

@@ -7,7 +7,7 @@
 
 declare(strict_types=1);
 
-namespace Hawksama\UsedProductNotice\Setup\Patch\Data;
+namespace Hawksama\HyvaUsedProductNotice\Setup\Patch\Data;
 
 use Magento\Catalog\Setup\CategorySetupFactory;
 use Magento\Eav\Setup\EavSetupFactory;

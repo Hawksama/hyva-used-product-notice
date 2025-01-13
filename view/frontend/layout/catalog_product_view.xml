@@ -3,6 +3,6 @@
         xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/layout_generic.xsd">
     <referenceContainer name="product.info.additional">
         <block class="Magento\Framework\View\Element\Template" name="UsedProduct"
-               template="Hawksama_UsedProductNotice::usedProduct.phtml" after="product.info"/>
+               template="Hawksama_HyvaUsedProductNotice::usedProduct.phtml" after="product.info"/>
     </referenceContainer>
 </layout>

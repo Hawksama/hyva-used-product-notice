@@ -7,7 +7,7 @@
 
 declare(strict_types=1);
 
-namespace Hawksama\UsedProductNotice\ViewModel;
+namespace Hawksama\HyvaUsedProductNotice\ViewModel;
 
 use Magento\Catalog\Api\Data\ProductInterface;
 use Magento\Cms\Api\BlockRepositoryInterface;
@@ -15,7 +15,7 @@ use Magento\Framework\Exception\NoSuchEntityException;
 use Magento\Framework\View\Element\Block\ArgumentInterface;
 use Hyva\Theme\ViewModel\CurrentProduct;
 use Psr\Log\LoggerInterface;
-use Hawksama\UsedProductNotice\Model\Config;
+use Hawksama\HyvaUsedProductNotice\Model\Config;
 
 class UsedProduct implements ArgumentInterface
 {

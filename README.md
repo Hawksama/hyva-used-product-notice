@@ -1,6 +1,6 @@
-# Hawksama_UsedProductNotice
+# Hawksama_HyvaUsedProductNotice
 
-**Hawksama_UsedProductNotice** is a **Hyvä-compatible** Magento 2 module tailored for stores selling used or “no-warranty” items. It displays a clear notice on the **product page** and requires customers to **acknowledge** that the items have no warranty or return policy during **checkout**.
+**Hawksama_HyvaUsedProductNotice** is a **Hyvä-compatible** Magento 2 module tailored for stores selling used or “no-warranty” items. It displays a clear notice on the **product page** and requires customers to **acknowledge** that the items have no warranty or return policy during **checkout**.
 
 ---
 
@@ -67,4 +67,4 @@ For any questions or suggestions:
 - Or email me to [manue971@icloud.com](mailto:manue971@icloud.com)
 - Or open an issue in this repository.
 
-**Thank you for using Hawksama_UsedProductNotice!** This module aims to provide clarity and reduce ambiguity for customers buying used items. Enjoy a more transparent and compliant shopping experience!  
+**Thank you for using Hawksama_HyvaUsedProductNotice!** This module aims to provide clarity and reduce ambiguity for customers buying used items. Enjoy a more transparent and compliant shopping experience!  

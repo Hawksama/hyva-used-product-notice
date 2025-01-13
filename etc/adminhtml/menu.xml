@@ -2,13 +2,13 @@
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
     <menu>
-        <add id="Hawlsama_UsedProductNotice::used_product"
+        <add id="Hawksama_HyvaUsedProductNotice::used_product"
              title="Product Delivery Date"
-             module="Hawlsama_UsedProductNotice"
+             module="Hawksama_HyvaUsedProductNotice"
              translate="title"
              sortOrder="8000"
              action="adminhtml/system_config/edit/section/used_product"
              parent="Hawksama_AdminMenu::configuration"
-             resource="Hawlsama_UsedProductNotice::used_product"/>
+             resource="Hawksama_HyvaUsedProductNotice::used_product"/>
     </menu>
 </config>

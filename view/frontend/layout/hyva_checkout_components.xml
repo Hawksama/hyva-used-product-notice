@@ -3,11 +3,11 @@
       xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
     <body>
         <referenceContainer name="checkout.section.quote-actions">
-            <container name="UsedProductNotice.consent.wrapper" htmlTag="div" htmlClass="mt-4">
-                <block name="UsedProductNotice.consent.info" as="info">
+            <container name="HyvaUsedProductNotice.consent.wrapper" htmlTag="div" htmlClass="mt-4">
+                <block name="HyvaUsedProductNotice.consent.info" as="info">
                     <arguments>
                         <argument name="magewire" xsi:type="object">
-                            Hawksama\UsedProductNotice\Magewire\ConsentInfo
+                            Hawksama\HyvaUsedProductNotice\Magewire\ConsentInfo
                         </argument>
                     </arguments>
                 </block>

@@ -7,7 +7,7 @@
 
 declare(strict_types=1);
 
-namespace Hawksama\UsedProductNotice\Magewire;
+namespace Hawksama\HyvaUsedProductNotice\Magewire;
 
 use Magento\Checkout\Model\Session as CheckoutSession;
 use Magento\Quote\Model\Quote;
@@ -16,7 +16,7 @@ use Magewirephp\Magewire\Component;
 use Hyva\Checkout\Model\Magewire\Component\EvaluationResultInterface;
 use Hyva\Checkout\Model\Magewire\Component\EvaluationResultFactory;
 use Hyva\Checkout\Model\Magewire\Component\EvaluationInterface;
-use Hawksama\UsedProductNotice\Model\Config;
+use Hawksama\HyvaUsedProductNotice\Model\Config;
 
 class ConsentInfo extends Component implements EvaluationInterface
 {

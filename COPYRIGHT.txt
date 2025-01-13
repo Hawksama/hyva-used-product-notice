@@ -1,6 +1,6 @@
 Copyright © 2025-present Alexandru-Manuel Carabus
 
-This file is part of Hawksama/UsedProductNotice.
+This file is part of Hawksama/HyvaUsedProductNotice.
 
 Hawksama/CronManager is free software: you can redistribute it and/or modify
 it under the terms of the Mozilla Public License, v. 2.0 as published by

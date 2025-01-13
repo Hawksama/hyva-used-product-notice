@@ -7,7 +7,7 @@
 
 declare(strict_types=1);
 
-namespace Hawksama\UsedProductNotice\Setup\Patch\Data;
+namespace Hawksama\HyvaUsedProductNotice\Setup\Patch\Data;
 
 use Magento\Cms\Api\BlockRepositoryInterface;
 use Magento\Framework\Setup\Patch\DataPatchInterface;
