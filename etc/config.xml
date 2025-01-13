@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <used_product>
+            <main>
+                <enable>1</enable>
+                <enable_on_product_page>1</enable_on_product_page>
+                <enable_confirmation_on_checkout>1</enable_confirmation_on_checkout>
+            </main>
+        </used_product>
+    </default>
+</config>
