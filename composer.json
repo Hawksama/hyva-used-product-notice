@@ -4,7 +4,7 @@
   "type": "magento2-module",
   "require": {
     "magento/framework": "*",
-      "hawksama/magento2-admin-menu": "^1.0"
+    "hawksama/magento2-admin-menu": "^1.0"
   },
   "autoload": {
     "files": [
