@@ -1,38 +1,66 @@
 # Hawksama_HyvaUsedProductNotice
 
-**Hawksama_HyvaUsedProductNotice** is a **Hyvä-compatible** Magento 2 module tailored for stores selling used or “no-warranty” items. It displays a clear notice on the **product page** and requires customers to **acknowledge** that the items have no warranty or return policy during **checkout**.
+**Hawksama_HyvaUsedProductNotice** is a **Hyvä-compatible** Magento 2 module for stores selling used or “no-warranty” items. It displays a clear **notice** on the **product page** to inform buyers about limited or no return policy for second-hand products.
 
 ---
 
 ## Overview
 
 1. **Product Page Notice**
-    - If a product is flagged as “used,” this module automatically shows a short disclaimer on the product detail page, letting buyers know that return rights may be limited or nonexistent.
+    - If a product is flagged as “used,” this module automatically shows a disclaimer on the product detail page, informing buyers that return rights may be limited or nonexistent.
 
-2. **Checkout Acknowledgement**
-    - During checkout, customers must explicitly confirm (via a checkbox) that they understand these items **have no warranty** or **return policy**. This ensures clarity and reduces potential disputes.
+2. **Lightweight & Hyvä-Compatible**
+    - Developed for Hyvä-based themes, but does **not** require Hyvä Checkout.
+    - Minimal performance overhead, focusing on clarity for customers viewing used products.
 
-3. **Hyvä Compatibility**
-    - Built to work seamlessly with **Hyvä**. The module’s Magewire component integrates with Hyvä Checkout to prompt and store customer consent.
+3. **Separate Checkout Consent (Optional)**
+    - This module **only** handles product-page disclaimers.
+    - To prompt checkout consent, use **[Hawksama_HyvaCheckoutUsedProductNotice](https://github.com/hawksama/hyva-checkout-used-product-notice)**.
+
+---
+
+## Product Page Example
+
+When a product is marked as “used,” a notice appears below the price or any custom block you configure:
+
+![Used Product Page](docs/images/used-product-PDP.png)
+
+---
+
+## Admin Configuration
+
+Enable or customize the “used product” notices directly in Magento’s **Stores > Configuration**.  
+Below is a screenshot of the admin settings:
+
+![Admin Configuration](docs/images/admin-config.png)
 
 ---
 
 ## Features
 
-- **Easy Integration**: No complicated setup; simply activate and configure your used-product attribute.
-- **Session-Based Consent**: Acknowledgement is remembered throughout checkout.
-- **Adjustable Wording**: Tailor your messaging to match store policies and branding.
-- **Lightweight**: Minimal performance overhead, focusing on clarity and compliance.
-- **Hyvä-Ready**: Magewire-based flows ensure a clean, modern checkout experience.
+- **Flexible CMS Block Usage**: The disclaimers are loaded from a CMS block, so you can update its content, styling, or language without touching any code.
+- **Easy Integration** : Simply enable the module, configure your “used product” attribute, and the notice appears on the PDP.
+- **Customizable Wording** : Tailor the disclaimer text to match your store’s branding and local legal requirements.
+- **Standalone** : No dependencies on Hyvä Checkout or Magewire. Perfect if you only want product-page notices.
+
+---
+
+## CMS Block Usage
+
+You can edit the CMS block with id `used_product_message` and make it tailored to your store needs:
+
+![CMS Block Example](docs/images/cms-block.png)
 
 ---
 
 ## Configuration
 
 1. **Used Product Attribute**
-    - Add or update a product attribute (e.g., `used_product`) to identify items requiring a disclaimer.
+    - Enable the product attribute `used_product` to identify items requiring a disclaimer.
+2. **CMS Block**
+   - Edit the CMS block with id `used_product_message` and make it tailored to you're needs!
 2. **Enable the Module**
-    - Once enabled, the frontend notice and checkout confirmation become active for products with the above attribute.
+    - Once enabled, any product with this attribute set to `true` will show the used-product notice on its detail page.
 3. **Messaging**
     - Edit the disclaimer text to suit your store’s policy and local regulations (e.g., language about no returns, limited warranty, etc.).
 
@@ -48,8 +76,8 @@
 
 ## Known Limitations
 
-- **Hyvä Dependency**: Checkout acknowledgement requires Hyvä’s Magewire environment. If you use default Luma, you’ll need a separate solution.
-- **Single-Attribute Check**: Currently, it checks only one attribute (`used_product`) to decide if an item is “used.”
+- **Hyvä Theme**: Recommended for Hyvä-based frontends.
+- **Checkout Consent**: Not included in this module. Use [Hawksama_HyvaCheckoutUsedProductNotice](https://github.com/hawksama/hyva-checkout-used-product-notice) if you need a checkout acknowledgment step.
 
 ---
 
@@ -57,6 +85,16 @@
 
 - **License**: Distributed under the [MIT License](LICENSE).
 - **Contributions**: Feedback and PRs are welcome. Feel free to open an issue or submit improvements to enhance used-product notice handling.
+
+---
+
+## Installation instructions
+
+```bash
+composer require hawksama/hyva-used-product-notice
+bin/magento setup:upgrade
+bin/magento cache:flush
+```
 
 ---
 
@@ -69,8 +107,3 @@ For any questions or suggestions:
 
 **Thank you for using Hawksama_HyvaUsedProductNotice!** This module aims to provide clarity and reduce ambiguity for customers buying used items. Enjoy a more transparent and compliant shopping experience!  
 
-## Installation instructions
-
-```bash
-composer require hawksama/hyva-used-product-notice
-```

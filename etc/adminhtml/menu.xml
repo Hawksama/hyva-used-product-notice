@@ -3,7 +3,7 @@
         xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
     <menu>
         <add id="Hawksama_HyvaUsedProductNotice::used_product"
-             title="Used Product Notice and Confirmation"
+             title="Used Product Notice"
              module="Hawksama_HyvaUsedProductNotice"
              translate="title"
              sortOrder="8000"

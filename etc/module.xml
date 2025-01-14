@@ -4,7 +4,6 @@
     <module name="Hawksama_HyvaUsedProductNotice">
         <sequence>
             <module name="Hyva_Theme"/>
-            <module name="Hyva_Checkout"/>
         </sequence>
     </module>
 </config>
