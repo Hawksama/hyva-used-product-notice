@@ -1,6 +1,6 @@
 {
   "name": "hawksama/hyva-used-product-notice",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Hyvä-compatible Magento 2 module that displays a disclaimer for used products on the product page and requires customers to acknowledge no warranty or return policy during checkout.",
   "type": "magento2-module",
   "require": {

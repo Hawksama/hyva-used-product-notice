@@ -68,3 +68,9 @@ For any questions or suggestions:
 - Or open an issue in this repository.
 
 **Thank you for using Hawksama_HyvaUsedProductNotice!** This module aims to provide clarity and reduce ambiguity for customers buying used items. Enjoy a more transparent and compliant shopping experience!  
+
+## Installation instructions
+
+```bash
+composer require hawksama/hyva-used-product-notice
+```

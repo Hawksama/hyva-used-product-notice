@@ -9,7 +9,6 @@ declare(strict_types=1);
 
 namespace Hawksama\HyvaUsedProductNotice\Setup\Patch\Data;
 
-use Magento\Catalog\Setup\CategorySetupFactory;
 use Magento\Eav\Setup\EavSetupFactory;
 use Magento\Framework\Exception\LocalizedException;
 use Magento\Framework\Setup\ModuleDataSetupInterface;
@@ -19,7 +18,6 @@ use Magento\Framework\Validator\ValidateException;
 class AddUsedProductAttribute implements DataPatchInterface
 {
     public function __construct(
-        private readonly CategorySetupFactory $categorySetupFactory,
         private readonly EavSetupFactory $eavSetupFactory,
         private readonly ModuleDataSetupInterface $moduleDataSetup
     ) {}
