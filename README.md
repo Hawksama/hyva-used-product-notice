@@ -6,7 +6,7 @@
 
 ## Overview
 
-1. **Product Page Notice**
+1. **Product Page Notification**
     - If a product is flagged as “used,” this module automatically shows a disclaimer on the product detail page, informing buyers that return rights may be limited or nonexistent.
 
 2. **Lightweight & Hyvä-Compatible**
